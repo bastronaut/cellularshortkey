@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<MBNProfile xmlns="http://www.microsoft.com/networking/WWAN/profile/v1">
+      <Name>CellularProfile</Name>
+      <ICONFilePath>c:\IT\WWAN\logo.ico</ICONFilePath>
+      <IsDefault>true</IsDefault>
+      <ProfileCreationType>UserProvisioned</ProfileCreationType>
+
+      <SubscriberID>Add SubscriberID here</SubscriberID>
+      <SimIccID>Add SIM ICC Id here</SimIccID>
+
+      <HomeProviderName>Yours</HomeProviderName>
+      <AutoConnectOnInternet>true</AutoConnectOnInternet>
+      <ConnectionMode>auto-home</ConnectionMode>
+      <Context>
+            <Compression>DISABLE</Compression>
+            <AuthProtocol>NONE</AuthProtocol>
+      </Context>
+</MBNProfile>
+
