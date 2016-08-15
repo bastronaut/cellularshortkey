@@ -9,7 +9,6 @@ The setup requires manually entering your Sim cards IccId and Subscriber Id in t
 1. Clone the cellularshortkey repository
 2. Open a command prompt (start > cmd.exe)
 3. Enter the command: `netsh mbn show readyinfo interface"Cellular"`. Example output:
-```
     Ready information for interface Cellular:
     -------------------------------------
         State            : Ready to power up and register
@@ -17,7 +16,6 @@ The setup requires manually entering your Sim cards IccId and Subscriber Id in t
         Subscriber Id    : XXXXXXXXXXXXXXX
         SIM ICC Id       : XXXXXXXXXXXXXXXXXX
         Number of telephone numbers  : 0
-```
 4. Open the profile.xml that you cloned from the repo
 5. Copy and paste the `Subscriber Id` in the `<SubscriberID>` field and the `SIM ICC Id` into the `<SimIccID>` field, save and exit
 6. Right click `shortcutcellular` > Properties 
